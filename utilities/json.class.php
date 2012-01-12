@@ -98,7 +98,7 @@ class CFJSON
 			}
 			else
 			{
-				$xml->addChild($k, strtr($v, array("&" => "&amp;")));
+				$xml->addChild($k, $v);
 			}
 		}
 	}
